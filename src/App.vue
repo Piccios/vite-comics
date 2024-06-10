@@ -36,5 +36,6 @@
 </template>
 
 <style lang="scss" >
-  @use './styles/style.scss' as *
+  @use './styles/partials/variables.scss';
+  @use './styles/style.scss';
   </style>
