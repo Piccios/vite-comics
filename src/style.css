@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(73, 73, 73)
+}
+
 body{
   font-family: roboto;
 }
+

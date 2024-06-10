@@ -5,10 +5,7 @@
     <header>
         <div class="logo"></div>
         <div class="navbar">
-            <ul>
-                <li>
-                    <a href=""> Characters </a>
-                </li>
+            <ul class="NavLinks">
                 <li>
                     <a href=""> Characters </a>
                 </li>
@@ -44,9 +41,30 @@
     </header>
 </template>
 <style scoped> 
+
     header{
         display: flex;
         justify-content: space-between;
+        padding: 2rem;
+        max-width: 80%;
+        margin: 0 auto;
+        align-items: center;
     }
+
+    div.logo{
+        width : 100px;
+        height: 100px;
+        border: solid 1px tomato;
+    }
+
+    ul.NavLinks{
+        display: flex;
+        padding: 1rem;
+    }
+
+    ul.NavLinks li{
+        margin-left: 1rem;
+    }
+
 
 </style>
