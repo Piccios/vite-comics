@@ -35,5 +35,6 @@
   </footer>
 </template>
 
-<style scoped>
-</style>
+<style lang="scss" >
+  @use './styles/style.scss' as *
+  </style>
