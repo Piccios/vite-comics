@@ -14,8 +14,7 @@
 
     main{
         height: 100px;
-        background-color: black;
-        
+        background-color: rgb(28, 28, 28);
     }
 
     div.content{
