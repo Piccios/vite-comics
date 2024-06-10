@@ -73,6 +73,7 @@ section.links {
     height: 480px;
     background-image: url(../assets/img/footer-bg.jpg);
     display: flex;
+    justify-content: space-around;
 }
 
 section.FooterContent {
@@ -98,7 +99,8 @@ section.social {
     justify-content: space-around;
     align-items: center;
     height: 130px;
-    
+    position: relative;
+    z-index: 0;
 }
 
 div.socialLinks{
