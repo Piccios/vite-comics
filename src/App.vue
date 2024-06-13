@@ -31,7 +31,7 @@
     <AppHeader/>
   </header>
   <main>
-    <AppMain/>
+    <AppCards/>
   </main>
   <footer>
     <AppFooter/>
