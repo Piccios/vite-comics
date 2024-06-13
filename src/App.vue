@@ -5,6 +5,11 @@
   import AppCards from './components/AppCards.vue'
 
   export default {
+    data(){
+      return {
+        message: "prova"
+      }
+    },
     components: 
     {
       AppHeader,
@@ -39,6 +44,6 @@
 </template>
 
 <style lang="scss" >
-  @use './styles/partials/variables.scss';
+  @use './styles/partials/variables.scss' as *;
   @use './styles/style.scss';
   </style>
