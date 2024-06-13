@@ -7,7 +7,7 @@
   export default {
     data(){
       return {
-        message: "prova"
+        
       }
     },
     components: 
@@ -37,7 +37,8 @@
     <AppHeader/>
   </header>
   <main>
-    <AppCards :AppCard/>
+    <AppCards/>
+    <AppCard/>
 
   </main>
   <footer>
