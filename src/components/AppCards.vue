@@ -1,28 +1,44 @@
 <script>
+import AppCard from "./AppCard.vue"
+export default {
+    data(){
+        return {
 
+        }
+    }, 
+    props: {
+        
+    },
+    methods:{
+        getImagePath: function(img) {
+
+        }
+    }
+}
 </script>
 
 <template>
-    <section class="jumbotron">
+    <section id="jumbotron">
         <div class="currentSeries">
             <h2>CURRENT SERIES</h2>
         </div>
     </section>
 
-    <section cards>
-        
+    <section id="cards">
+        <p>
+            {{ messaggio }}
+        </p>
 
     </section>
 </template>
 
 <style scoped>
 
-    section.jumbotron{
+    section#jumbotron{
         width: 100%;
         height: 550px;
         background-image: url(../assets/img/jumbotron.jpg);
         background-size: cover;
-
     }
 
     div.currentSeries{
@@ -36,10 +52,11 @@
         text-align: center;
     }
     
-    section.cards{
-        background-color: rgb(28, 28, 28);
-        height: 450px;
+    section#cards{
+        
+        height: 650px;
         width: 100%;
+        background-color: rgb(28, 28, 28);
     }
 
 
