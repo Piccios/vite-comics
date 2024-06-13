@@ -3,7 +3,9 @@
 </script>
 <template>
     <header>
-        <div class="logo"></div>
+        <div class="logo">
+            <img src="../assets/img/dc-logo.png" alt="">
+        </div>
         <div class="navbar">
             <ul class="NavLinks">
                 <li>
@@ -49,12 +51,6 @@
         max-width: 80%;
         margin: 0 auto;
         align-items: center;
-    }
-
-    div.logo{
-        width : 100px;
-        height: 100px;
-        border: solid 1px tomato;
     }
 
     ul.NavLinks{
