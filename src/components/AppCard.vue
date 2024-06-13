@@ -25,10 +25,13 @@ export default {
     gap: 1rem;
     justify-content: center;
     padding: 1rem;
+    background-color: black;    
+    z-index: 1;
+    position: relative;
     }
 
-.card {
-    background: white;
+    .card {
+    background: black;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -38,10 +41,5 @@ export default {
     .card img {
     width: 100%;
     height: auto;
-    }
-
-    .card h4 {
-    padding: 0.5rem;
-    text-align: center;
     }
 </style>

@@ -127,6 +127,8 @@ export default {
         height: 650px;
         width: 100%;
         background-color: rgb(28, 28, 28);
+        z-index: 1;
+        position: relative;
     }
 
 

@@ -100,11 +100,17 @@ section.social {
     align-items: center;
     height: 130px;
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 
 div.socialLinks{
     text-align: center;
     align-items: center;
 }
+
+section.logo img{
+    position: relative;
+    bottom: 50px;
+    z-index: 0;
+    }
 </style>
