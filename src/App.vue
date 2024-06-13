@@ -3,7 +3,7 @@
   import AppMain from './components/AppMain.vue'
   import AppFooter from './components/AppFooter.vue'
   import AppCards from './components/AppCards.vue'
-
+  import AppCard from './components/AppCard.vue'
   export default {
     data(){
       return {
@@ -15,7 +15,8 @@
       AppHeader,
       AppMain,
       AppCards,
-      AppFooter
+      AppFooter,
+      AppCard
     },
     data(){
       return{
@@ -36,7 +37,8 @@
     <AppHeader/>
   </header>
   <main>
-    <AppCards/>
+    <AppCards :AppCard/>
+
   </main>
   <footer>
     <AppFooter/>

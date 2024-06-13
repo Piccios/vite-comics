@@ -1,18 +1,47 @@
 <script>
 export default {
-    data(){
-        return{
-
+    props: {
+        products: {
+        type: Array,
+        required: true
         }
     }
 }
 </script>
 <template>
     <section class="cards">
-        <article class="comics" c-for="(card, index) in productsList" :key="index">
-            <img :src="card.thumb" :alt="card.series">
+        <article class="card" v-for="(product, index) in productsList" :key="index">
+            <img :src="product.thumb" :alt="product.series">
+            <h4> 
+                {{product.series}}
+            </h4>
         </article>
     </section>
 </template>
 <style scoped>
+    .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    }
+
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    }
+
+    .card img {
+    width: 100%;
+    height: auto;
+    }
+
+    .card h4 {
+    padding: 0.5rem;
+    text-align: center;
+    }
 </style>

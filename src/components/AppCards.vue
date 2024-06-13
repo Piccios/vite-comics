@@ -1,6 +1,10 @@
 <script>
-import AppCard from "./AppCard.vue"
+import AppCard from "./AppCard.vue";
 export default {
+    components: {
+        AppCard
+    },
+
     data(){
         return {
             productsList: [
@@ -81,14 +85,6 @@ export default {
     }, 
     props: {
         
-    },
-    methods:{
-        getImagePath: function(img) {
-
-        }
-    },
-    components:{
-        AppCard
     }
 }
 </script>
@@ -101,7 +97,7 @@ export default {
     </section>
 
     <section id="cards">
-        <AppCard/>
+        <AppCard :products="productsList"/>
 
     </section>
 </template>
